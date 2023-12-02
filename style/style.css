@@ -1,0 +1,637 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+.container{
+    padding: 0 20px;
+    margin: 0 auto;
+    max-width: 1300px;
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    background: #fff;
+    padding: 20px;
+}
+
+.nav-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-logo img{
+    width: 100px;
+    height: 90px;
+}
+
+.nav-list ul{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-list{
+  transition: .2s;
+}
+
+.nav-list ul li{
+    list-style-type: none;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: #000;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nav-list ul li .cnt{
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    padding: 15px 15px;
+    border-radius: 25px;
+    background: #6D73FD;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.main{
+    margin-top: 130px;
+}
+
+.main swiper-container {
+    width: 100%;
+    height: 600px;
+  }
+
+  .main  swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .main-imgs{
+    filter: brightness(30%);
+  }
+
+  .main-text{
+    position: relative;
+    top: -290px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    z-index: 10;
+    text-align: center;
+  }
+
+  .main-text h1{
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .about{
+    
+  }
+
+  .about h1{
+    color: #000;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .about-content{
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .about-img img{
+    width: 491px;
+    height: 398px;
+    border-radius: 15px;
+  }
+
+  .about-text p{
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .lyuks{
+    padding-top: 87px;
+  }
+
+  .lyuks-swiper swiper-conainer{
+    width: 100%;
+    height: 600px;
+  }
+
+  .lyuks-swiper swiper-slide img {
+    display: block;
+    width: 283px;
+    height: 305px;
+    
+  }
+
+  .lyuks h1{
+    color: #000;
+    font-size: 40px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .lyuks-content{
+    padding-top: 47px;
+  }
+
+  .lyuks-size{
+    margin-top: 47px;
+  }
+
+  .lyksz-content{
+    padding-top: 47px;
+    display: flex;
+    align-items: center;
+    gap: 48px;
+  }
+
+  .lyksz-img img{
+    border-radius: 15px;
+    width: 423px;
+    height: 414px;
+  }
+
+
+  .lyksz-sizes-info ul li{
+    color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+    list-style-image: url('/img/vecteezy_symbole-de-coche-ronde-avec-fond-transparent_17177933\ 1.png');
+  }
+
+  .supports{
+    margin-top: 90px;
+  }
+
+  .mobile-videos-swiper{
+    padding-top: 59px;
+    display: none;
+  }
+
+/* 
+  video{
+    border-radius: 10px;
+  } */
+
+  .contact{
+    margin-top: 150px;
+  }
+
+  .contact-content h1{
+    color: #000;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  }
+
+  .contact-form{
+    display: flex;
+    align-items: center;
+
+  }
+
+  form input{
+    width: 100%;
+    min-width: 400px;
+    margin-top: 25px;
+    border-radius: 15px;
+    border: 1px solid #6D73FD;
+    background: #FFF;
+    outline: none;
+    padding: 18px 25px;
+  }
+
+  form button{
+    cursor: pointer;
+    border-radius: 10px;
+    background: #6D73FD;
+    border: none;
+    outline: none;
+    padding: 17px;
+    width: 100%;
+    color: #FFF;
+    font-size: 20px;
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+
+  .footer{
+    background: #6D73FD;
+    margin-top: 74px;
+  }
+
+  .footer-content{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .footer-content .foo-logo img{
+    width: 100px;
+  }
+
+  .foo-links ul{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0 81px;
+  }
+
+  .foo-links ul li{
+    padding-top: 4px;
+    list-style-type: none;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: right;
+
+  }
+
+  .foo-links ul li a{
+    text-decoration: none;
+    list-style-type: none;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .foo-contact p{
+    padding-top: 10px;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .foo-contact p a{
+    text-decoration: none;
+    color: #FFF;
+  }
+
+  select{
+    cursor: pointer;
+    outline: none;
+    margin-top: 25px;
+    width: 100%;
+    padding: 18px 25px;
+    border-radius: 15px;
+    border: 1px solid #6D73FD;
+  }
+
+  .phone{
+    display: flex;
+    gap: 5px;
+  }
+
+  .phone .tels{
+    padding-top: 10px;
+  }
+
+  .phone .tels a{ 
+    text-decoration: none;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .sending{
+    color: rgb(34, 205, 34);
+    display: none;
+  }
+
+  .act{
+    display: block;
+  }
+
+  .none{
+    display: none;
+  }
+
+  .mobile-menu{
+    display: none;
+  }
+  
+  .mobile-swiper{
+    display: none;
+  }
+
+  /* Media section */
+
+
+  #close{
+    display: none;
+  }
+  
+  
+  #menu{
+    display: none;
+  }
+
+  @media only screen and (max-width: 600px){
+
+    .main-text h1{
+      font-size: 30px;
+    }
+
+    .about-content{
+      flex-direction: column;
+    }
+
+    .about-img img{
+      width: 100%;
+      height: 300px;
+    }
+
+    .about-text p{
+      font-size: 15px;
+    }
+
+    .about-text p br{
+      display: none;
+    }
+
+    .lyuks-swiper{
+      display: none;
+    }
+
+    .mobile-swiper{
+      display: block;
+    }
+
+    .mobile-swiper swiper-conainer{
+      width: 100%;
+      height: 600px;
+    }
+  
+    .mobile-swiper swiper-slide img {
+      border-radius: 15px;
+      display: block;
+      object-fit: cover;
+      width: 100%;
+      height: 350px;
+    }
+
+    .lyksz-content{
+      flex-direction: column;
+    }
+
+    .lyksz-img img{
+      width: 350px;
+      object-fit: cover;
+    }
+
+    .lyksz-sizes-info ul{
+      gap: 0 80px;
+      margin-left: 50px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .lyksz-sizes-info ul li{
+      font-size: 18px;
+    }
+
+    .outside-size{
+      padding-top: 30px;
+      word-break: break-all;
+      white-space: nowrap;
+      font-size: 18px;
+    }
+    
+    .lyuks h1{
+      font-size: 30px;
+    }
+
+    .about h1{
+      font-size: 30px;
+    }
+
+    .lyuks-size h1{
+      color: #000;
+      font-size: 30px;
+      text-align: center;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal
+    }
+
+    .contact-form{
+      flex-direction: column;
+    }
+
+    form input{
+      min-width: 200px;
+    }
+
+    .footer-content{
+      flex-direction: column;
+    }
+
+    .nav-list{
+      display: flex; 
+      flex-direction: column;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      left: -100%;
+      background-color: #fff;
+      width: 100%;
+      height: 100vh;
+      padding-top: 60px;
+    }
+
+    
+    .nav-list ul{
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      flex-direction: column;
+    }
+
+    .nav-list ul li{
+      font-size: 19px;
+      padding-top: 10px;
+    }
+
+    .contact-form img{
+      display: none;
+    }
+
+    .foo-links{
+      padding-top: 10px;
+    }
+
+    .foo-links ul li a{
+      text-align: center;
+      font-size: 14px;
+    }
+
+    .foo-links ul li{
+      text-align: center;
+    }
+
+    .foo-links ul{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .foo-contact{
+      padding-top: 10px;
+    }
+
+    .foo-contact p{
+      font-size: 14px;
+    }
+
+    .phone .tels a{
+      font-size: 14px;
+    }
+
+    .contact-content h1{
+      font-size: 30px;
+    }
+
+    .sprt-content h1{
+      text-align: center;
+      font-weight: 500;
+      font-size: 30px;
+    }
+
+    .videos-swiper{
+      width: 100%;
+    }
+
+    .mobile-menu{
+      display: block;
+    }
+
+    .nav-list.active {
+      left: 0; 
+    }
+
+    #close{
+      display: block;
+    }
+
+
+    #menu{
+      display: block;
+    }
+
+  
+
+    .mobile-videos-swiper{
+      display: block;
+    }    
+
+    .desktop-slider-container{
+      display: none;
+    }
+
+    :root{
+      --swiper-navigation-color: #000;
+    }
+
+    .mobile-swiper swiper-container .swiper-button-next, .swiper-button-prev {
+      color: var(--swiper-navigation-color);
+    }
+  }
+
+
+
+
+.close{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.close img{
+  width: 50px;
+}
+
+.mobile-videos-swiper swiper-container .video-js{
+  background: #fff;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.desktop-slider-container{
+  padding-top: 50px;
+}
+
+.slide-video{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.slide-video .video-js{
+  background: #fff;
+  min-height: 500px;
+}
+
